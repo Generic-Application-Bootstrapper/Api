@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = { "org.openapitools", "gen.petstore.api" , "org.openapitools.configuration", "com"})
+@ComponentScan(basePackages = { "org.openapitools", "gen.petstore.api" , "org.openapitools.configuration"})
 public class OpenAPI2SpringBoot implements CommandLineRunner {
 
     @Override

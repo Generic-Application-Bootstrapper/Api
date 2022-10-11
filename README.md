@@ -11,6 +11,7 @@ to get the schema submodules and any others that may exist then do
 
 ```
     mvn compile
+    mvn spring-boot:run
 ```
 
 to create target files such as the application jar. See the DockerFile to what the docker virtual environment uses, though the virtual environment shouldn't be necessary.
