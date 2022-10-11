@@ -1,4 +1,4 @@
 {
     "build": { "dockerfile": "Dockerfile" },
-    "forwardPorts": [8081]
+    "forwardPorts": [8080]
 }
