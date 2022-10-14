@@ -16,9 +16,7 @@ import java.util.List;
 //@Configuration
 //@EnableAspectJAutoProxy
 @SpringBootApplication
-@ComponentScan(basePackages = "com.ex ample", excludeFilters = {
-                @ComponentScan.Filter(type = FilterType.REGEX, pattern = "com.example.demo.*")
-        })
+@ComponentScan(basePackages = {"org.openapitools", "gen.petstore.api" , "org.openapitools.configuration"})
 public class Application {
 
     public static void main(String[] args) {

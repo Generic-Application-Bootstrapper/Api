@@ -11,10 +11,19 @@ to get the schema submodules and any others that may exist then do
 
 ```
     mvn compile
+```
+
+to create target files such as the application jar.
+
+#To Run the API
+
+```
     mvn spring-boot:run
 ```
 
-to create target files such as the application jar. See the DockerFile to what the docker virtual environment uses, though the virtual environment shouldn't be necessary.
+will start spring-boot. There are three options for starting the application each should be identical and should be undated to only have one. Within an IDE such as Intellij or Eclipse: `com.entry.Application.java`, `org.openapitools.OpenApiGeneratorApplication.java`, and `org.openapitools.OpenAPI2SpringBoot.java` all function as main functions to start the application.
+
+See the DockerFile to what the docker virtual environment uses, though the virtual environment shouldn't be necessary.
 
 # OpenAPI generated server
 
